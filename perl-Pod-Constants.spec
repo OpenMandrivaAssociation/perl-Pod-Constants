@@ -2,8 +2,8 @@
 
 Summary:	Pod::Constants - Include constants from POD
 Name:		perl-%{real_name}
-Version:	0.15
-Release:	%mkrel 2
+Version:	0.16
+Release:	%mkrel 1
 License:	GPL or Artistic
 Group:		Development/Perl
 URL:		http://search.cpan.org/dist/%{real_name}
