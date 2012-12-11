@@ -1,0 +1,13 @@
+diff -urN Pod-Constants-0.16/Makefile.PL Pod-Constants-0.16-patched/Makefile.PL
+--- Pod-Constants-0.16/Makefile.PL	2007-10-21 19:50:35.000000000 +1100
++++ Pod-Constants-0.16-patched/Makefile.PL	2012-10-18 01:32:27.155967675 +1100
+@@ -25,8 +25,7 @@
+ 			     Test::Simple => 0.18,
+ 			   },
+     ($] >= 5.005 ?    ## Add these new keywords supported since 5.005
+-      (ABSTRACT_FROM => 'Constants.pm', # retrieve abstract from module
+-       AUTHOR     => 'Sam Vilain <sam@vilain.net>') : ()),
++      (ABSTRACT_FROM => 'Constants.pm') : ()),
+ });
+ 
+ if (open MAKEMAKERISAHORRIDHACK, ">t/perlpath") {
