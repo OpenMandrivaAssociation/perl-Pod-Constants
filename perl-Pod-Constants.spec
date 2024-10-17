@@ -8,7 +8,7 @@ Release:	4
 Summary:	Pod::Constants - Include constants from POD
 License:	GPL+ or Artistic
 Group:		Development/Perl
-Url:		http://search.cpan.org/dist/%{upstream_name}
+Url:		https://search.cpan.org/dist/%{upstream_name}
 Source0:	http://search.cpan.org/CPAN/authors/id/S/SA/SAMV/%{upstream_name}-%{upstream_version}.tar.bz2
 # Fails with current MakeMaker
 Patch0:		Pod-Constants-0.16-makemaker.patch
