@@ -13,6 +13,7 @@ Source0:	http://search.cpan.org/CPAN/authors/id/S/SA/SAMV/%{upstream_name}-%{ups
 # Fails with current MakeMaker
 Patch0:		Pod-Constants-0.16-makemaker.patch
 
+BuildRequires:	make
 BuildRequires:	perl-devel
 BuildArch:	noarch
 
